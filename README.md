@@ -12,7 +12,7 @@
 
 
 
-[![CircleCI](https://circleci.com/gh/Ami-Solution/amisdeltadax.svg?style=svg)](https://circleci.com/gh/Ami-Solution/amisdeltadax/)
+[![CircleCI](https://circleci.com/gh/Ami-Solution/amisdeltadax/tree/glitch.svg?style=svg)](https://circleci.com/gh/Ami-Solution/amisdeltadax/tree/glitch)
 
 What is Amis Delta dax ?
 
