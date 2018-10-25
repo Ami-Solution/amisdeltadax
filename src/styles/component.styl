@@ -1,0 +1,25 @@
+@import './vars'
+
+// COMPONENT
+.component
+  border 1px solid darken($color-component-background, 15%)
+  background $color-component-background
+
+  .header
+    display flex
+    align-items center
+    font-size 14px
+    font-weight bold
+    flex-basis 100%
+    border-bottom 1px solid darken($color-background, 13%)
+    background-color $color-component-header
+    height 45px
+    padding 0px .8em
+
+    span
+      color #fff
+
+  .body
+    display flex
+    flex-wrap wrap
+    flex-basis 100%
