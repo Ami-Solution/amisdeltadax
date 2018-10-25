@@ -8,7 +8,7 @@ jobs:
   build:
     docker:
 
-      - image: circleci/node:9.3
+      - image: circleci/node:8.12
 
     steps:
       - checkout
@@ -47,5 +47,5 @@ jobs:
           - v1-dependencies-
       - run: 
           name: npm run build --report
-command: npm run build --report
+          command: npm run build --report
 
