@@ -3,18 +3,12 @@
 # Check https://circleci.com/docs/2.0/language-javascript/ for more details
 #
 version: 2
+
 jobs:
   build:
     docker:
-      # specify the version you desire here
-      - image: circleci/node:8.12
-      
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/mongo:3.4.4
 
-    working_directory: ~/repo
+      - image: circleci/node:9.3
 
     steps:
       - checkout
@@ -27,6 +21,7 @@ jobs:
             sudo mv node_modules/npm /usr/local/lib/node_modules/npm
             sudo chown -R 500:500 /usr/local/lib/node_modules/npm
        
+
       - run:
           name: "Checking Versions"
           command: |
@@ -35,9 +30,14 @@ jobs:
       - run:
           name: Change permissions from root to user
           command: sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
-       - run:
-          name: npm install
-          command: npm install
+
+      - run:
+          name: npm Install 
+          command: npm install 
+          
+      - run:
+          name: npm run build 
+          command: npm run build
 
       # Download and cache dependencies
       - restore_cache:
@@ -46,6 +46,6 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
       - run: 
-          name: npm build
-command: npm build
+          name: npm run build --report
+command: npm run build --report
 
