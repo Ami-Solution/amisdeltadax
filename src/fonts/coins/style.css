@@ -1,0 +1,775 @@
+@font-face {
+  font-family: 'coins';
+  src:
+    url('fonts/coins.ttf?7jtkn') format('truetype'),
+    url('fonts/coins.woff?7jtkn') format('woff'),
+    url('fonts/coins.svg?7jtkn#coins') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="coins-"], [class*=" coins-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'coins' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.coins-ADC-alt:before {
+  content: "\e900";
+}
+.coins-ADC:before {
+  content: "\e901";
+}
+.coins-AEON-alt:before {
+  content: "\e902";
+}
+.coins-AEON:before {
+  content: "\e903";
+}
+.coins-AMP-alt:before {
+  content: "\e904";
+}
+.coins-AMP:before {
+  content: "\e905";
+}
+.coins-ANC-alt:before {
+  content: "\e906";
+}
+.coins-ANC:before {
+  content: "\e907";
+}
+.coins-ARCH-alt:before {
+  content: "\e908";
+}
+.coins-ARCH:before {
+  content: "\e909";
+}
+.coins-ARDR-alt:before {
+  content: "\e90a";
+}
+.coins-ARDR:before {
+  content: "\e90b";
+}
+.coins-AUR-alt:before {
+  content: "\e90c";
+}
+.coins-AUR:before {
+  content: "\e90d";
+}
+.coins-BANX-alt:before {
+  content: "\e90e";
+}
+.coins-BANX:before {
+  content: "\e90f";
+}
+.coins-BAT-alt:before {
+  content: "\e910";
+}
+.coins-BAT:before {
+  content: "\e911";
+}
+.coins-BAY-alt:before {
+  content: "\e912";
+}
+.coins-BAY:before {
+  content: "\e913";
+}
+.coins-BC-alt:before {
+  content: "\e914";
+}
+.coins-BC:before {
+  content: "\e915";
+}
+.coins-BCN-alt:before {
+  content: "\e916";
+}
+.coins-BCN:before {
+  content: "\e917";
+}
+.coins-BFT-alt:before {
+  content: "\e918";
+}
+.coins-BFT:before {
+  content: "\e919";
+}
+.coins-BRK-alt:before {
+  content: "\e91a";
+}
+.coins-BRK:before {
+  content: "\e91b";
+}
+.coins-BRX-alt:before {
+  content: "\e91c";
+}
+.coins-BRX:before {
+  content: "\e91d";
+}
+.coins-BSD-alt:before {
+  content: "\e91e";
+}
+.coins-BSD:before {
+  content: "\e91f";
+}
+.coins-BTA:before {
+  content: "\e920";
+}
+.coins-BTC-alt:before {
+  content: "\e921";
+}
+.coins-BTC:before {
+  content: "\e922";
+}
+.coins-BTCD-alt:before {
+  content: "\e923";
+}
+.coins-BTCD:before {
+  content: "\e924";
+}
+.coins-BTS-alt:before {
+  content: "\e925";
+}
+.coins-BTS:before {
+  content: "\e926";
+}
+.coins-CLAM-alt:before {
+  content: "\e927";
+}
+.coins-CLAM:before {
+  content: "\e928";
+}
+.coins-CLOAK-alt:before {
+  content: "\e929";
+}
+.coins-CLOAK:before {
+  content: "\e92a";
+}
+.coins-DAO-alt:before {
+  content: "\e92b";
+}
+.coins-DAO:before {
+  content: "\e92c";
+}
+.coins-DASH-alt:before {
+  content: "\e92d";
+}
+.coins-DASH:before {
+  content: "\e92e";
+}
+.coins-DCR-alt:before {
+  content: "\e92f";
+}
+.coins-DCR:before {
+  content: "\e930";
+}
+.coins-DGB-alt:before {
+  content: "\e931";
+}
+.coins-DGB:before {
+  content: "\e932";
+}
+.coins-DGD:before {
+  content: "\e933";
+}
+.coins-DGX:before {
+  content: "\e934";
+}
+.coins-DMD-alt:before {
+  content: "\e935";
+}
+.coins-DMD:before {
+  content: "\e936";
+}
+.coins-DOGE-alt:before {
+  content: "\e937";
+}
+.coins-DOGE:before {
+  content: "\e938";
+}
+.coins-EMC-alt:before {
+  content: "\e939";
+}
+.coins-EMC:before {
+  content: "\e93a";
+}
+.coins-ERC-alt:before {
+  content: "\e93b";
+}
+.coins-ERC:before {
+  content: "\e93c";
+}
+.coins-ETC-alt:before {
+  content: "\e93d";
+}
+.coins-ETC:before {
+  content: "\e93e";
+}
+.coins-ETH-alt:before {
+  content: "\e93f";
+}
+.coins-ETH:before {
+  content: "\e940";
+}
+.coins-FC2-alt:before {
+  content: "\e941";
+}
+.coins-FC2:before {
+  content: "\e942";
+}
+.coins-FCT-alt:before {
+  content: "\e943";
+}
+.coins-FCT:before {
+  content: "\e944";
+}
+.coins-FLO-alt:before {
+  content: "\e945";
+}
+.coins-FLO:before {
+  content: "\e946";
+}
+.coins-FRK-alt:before {
+  content: "\e947";
+}
+.coins-FRK:before {
+  content: "\e948";
+}
+.coins-FTC-alt:before {
+  content: "\e949";
+}
+.coins-FTC:before {
+  content: "\e94a";
+}
+.coins-GAME-alt:before {
+  content: "\e94b";
+}
+.coins-GAME:before {
+  content: "\e94c";
+}
+.coins-GDC-alt:before {
+  content: "\e94d";
+}
+.coins-GDC:before {
+  content: "\e94e";
+}
+.coins-GEMZ-alt:before {
+  content: "\e94f";
+}
+.coins-GEMZ:before {
+  content: "\e950";
+}
+.coins-GLD-alt:before {
+  content: "\e951";
+}
+.coins-GLD:before {
+  content: "\e952";
+}
+.coins-GNO-alt:before {
+  content: "\e953";
+}
+.coins-GNO:before {
+  content: "\e954";
+}
+.coins-GNT-alt:before {
+  content: "\e955";
+}
+.coins-GNT:before {
+  content: "\e956";
+}
+.coins-GRC-alt:before {
+  content: "\e957";
+}
+.coins-GRC:before {
+  content: "\e958";
+}
+.coins-GRS:before {
+  content: "\e959";
+}
+.coins-HEAT-alt:before {
+  content: "\e95a";
+}
+.coins-HEAT:before {
+  content: "\e95b";
+}
+.coins-ICN-alt:before {
+  content: "\e95c";
+}
+.coins-ICN:before {
+  content: "\e95d";
+}
+.coins-IFC-alt:before {
+  content: "\e95e";
+}
+.coins-IFC:before {
+  content: "\e95f";
+}
+.coins-INCNT-alt:before {
+  content: "\e960";
+}
+.coins-INCNT:before {
+  content: "\e961";
+}
+.coins-IOC-alt:before {
+  content: "\e962";
+}
+.coins-IOC:before {
+  content: "\e963";
+}
+.coins-IOTA-alt:before {
+  content: "\e964";
+}
+.coins-IOTA:before {
+  content: "\e965";
+}
+.coins-JBS-alt:before {
+  content: "\e966";
+}
+.coins-JBS:before {
+  content: "\e967";
+}
+.coins-KMD-alt:before {
+  content: "\e968";
+}
+.coins-KMD:before {
+  content: "\e969";
+}
+.coins-KOBO:before {
+  content: "\e96a";
+}
+.coins-KORE-alt:before {
+  content: "\e96b";
+}
+.coins-KORE:before {
+  content: "\e96c";
+}
+.coins-LBC-alt:before {
+  content: "\e96d";
+}
+.coins-LBC:before {
+  content: "\e96e";
+}
+.coins-LDOGE-alt:before {
+  content: "\e96f";
+}
+.coins-LDOGE:before {
+  content: "\e970";
+}
+.coins-LISK-alt:before {
+  content: "\e971";
+}
+.coins-LISK:before {
+  content: "\e972";
+}
+.coins-LTC-alt:before {
+  content: "\e973";
+}
+.coins-LTC:before {
+  content: "\e974";
+}
+.coins-MAID-alt:before {
+  content: "\e975";
+}
+.coins-MAID:before {
+  content: "\e976";
+}
+.coins-MINT-alt:before {
+  content: "\e977";
+}
+.coins-MINT:before {
+  content: "\e978";
+}
+.coins-MONA-alt:before {
+  content: "\e979";
+}
+.coins-MONA:before {
+  content: "\e97a";
+}
+.coins-MRC:before {
+  content: "\e97b";
+}
+.coins-MSC-alt:before {
+  content: "\e97c";
+}
+.coins-MSC:before {
+  content: "\e97d";
+}
+.coins-MTR-alt:before {
+  content: "\e97e";
+}
+.coins-MTR:before {
+  content: "\e97f";
+}
+.coins-MUE-alt:before {
+  content: "\e980";
+}
+.coins-MUE:before {
+  content: "\e981";
+}
+.coins-NBT:before {
+  content: "\e982";
+}
+.coins-NEOS-alt:before {
+  content: "\e983";
+}
+.coins-NEOS:before {
+  content: "\e984";
+}
+.coins-NEU-alt:before {
+  content: "\e985";
+}
+.coins-NEU:before {
+  content: "\e986";
+}
+.coins-NLG-alt:before {
+  content: "\e987";
+}
+.coins-NLG:before {
+  content: "\e988";
+}
+.coins-NMC-alt:before {
+  content: "\e989";
+}
+.coins-NMC:before {
+  content: "\e98a";
+}
+.coins-NOTE-alt:before {
+  content: "\e98b";
+}
+.coins-NOTE:before {
+  content: "\e98c";
+}
+.coins-NVC-alt:before {
+  content: "\e98d";
+}
+.coins-NVC:before {
+  content: "\e98e";
+}
+.coins-NXT-alt:before {
+  content: "\e98f";
+}
+.coins-NXT:before {
+  content: "\e990";
+}
+.coins-OK-alt:before {
+  content: "\e991";
+}
+.coins-OK:before {
+  content: "\e992";
+}
+.coins-OMNI-alt:before {
+  content: "\e993";
+}
+.coins-OMNI:before {
+  content: "\e994";
+}
+.coins-OPAL-alt:before {
+  content: "\e995";
+}
+.coins-OPAL:before {
+  content: "\e996";
+}
+.coins-PIGGY-alt:before {
+  content: "\e997";
+}
+.coins-PIGGY:before {
+  content: "\e998";
+}
+.coins-PINK-alt:before {
+  content: "\e999";
+}
+.coins-PINK:before {
+  content: "\e99a";
+}
+.coins-PIVX-alt:before {
+  content: "\e99b";
+}
+.coins-PIVX:before {
+  content: "\e99c";
+}
+.coins-POT-alt:before {
+  content: "\e99d";
+}
+.coins-POT:before {
+  content: "\e99e";
+}
+.coins-PPC-alt:before {
+  content: "\e99f";
+}
+.coins-PPC:before {
+  content: "\e9a0";
+}
+.coins-QRK-alt:before {
+  content: "\e9a1";
+}
+.coins-QRK:before {
+  content: "\e9a2";
+}
+.coins-RADS-alt:before {
+  content: "\e9a3";
+}
+.coins-RADS:before {
+  content: "\e9a4";
+}
+.coins-RBIES-alt:before {
+  content: "\e9a5";
+}
+.coins-RBIES:before {
+  content: "\e9a6";
+}
+.coins-RBT-alt:before {
+  content: "\e9a7";
+}
+.coins-RBT:before {
+  content: "\e9a8";
+}
+.coins-RBY-alt:before {
+  content: "\e9a9";
+}
+.coins-RBY:before {
+  content: "\e9aa";
+}
+.coins-RDD-alt:before {
+  content: "\e9ab";
+}
+.coins-RDD:before {
+  content: "\e9ac";
+}
+.coins-REP-alt:before {
+  content: "\e9ad";
+}
+.coins-REP:before {
+  content: "\e9ae";
+}
+.coins-RISE-alt:before {
+  content: "\e9af";
+}
+.coins-RISE:before {
+  content: "\e9b0";
+}
+.coins-SAR-alt:before {
+  content: "\e9b1";
+}
+.coins-SAR:before {
+  content: "\e9b2";
+}
+.coins-SCOT-alt:before {
+  content: "\e9b3";
+}
+.coins-SCOT:before {
+  content: "\e9b4";
+}
+.coins-SDC-alt:before {
+  content: "\e9b5";
+}
+.coins-SDC:before {
+  content: "\e9b6";
+}
+.coins-SIA-alt:before {
+  content: "\e9b7";
+}
+.coins-SIA:before {
+  content: "\e9b8";
+}
+.coins-SJCX-alt:before {
+  content: "\e9b9";
+}
+.coins-SJCX:before {
+  content: "\e9ba";
+}
+.coins-SLG-alt:before {
+  content: "\e9bb";
+}
+.coins-SLG:before {
+  content: "\e9bc";
+}
+.coins-SLS-alt:before {
+  content: "\e9bd";
+}
+.coins-SLS:before {
+  content: "\e9be";
+}
+.coins-SNRG-alt:before {
+  content: "\e9bf";
+}
+.coins-SNRG:before {
+  content: "\e9c0";
+}
+.coins-START-alt:before {
+  content: "\e9c1";
+}
+.coins-START:before {
+  content: "\e9c2";
+}
+.coins-STEEM-alt:before {
+  content: "\e9c3";
+}
+.coins-STEEM:before {
+  content: "\e9c4";
+}
+.coins-STR-alt:before {
+  content: "\e9c5";
+}
+.coins-STR:before {
+  content: "\e9c6";
+}
+.coins-STRAT-alt:before {
+  content: "\e9c7";
+}
+.coins-STRAT:before {
+  content: "\e9c8";
+}
+.coins-SWIFT-alt:before {
+  content: "\e9c9";
+}
+.coins-SWIFT:before {
+  content: "\e9ca";
+}
+.coins-SYNC-alt:before {
+  content: "\e9cb";
+}
+.coins-SYNC:before {
+  content: "\e9cc";
+}
+.coins-SYS-alt:before {
+  content: "\e9cd";
+}
+.coins-SYS:before {
+  content: "\e9ce";
+}
+.coins-TRIG-alt:before {
+  content: "\e9cf";
+}
+.coins-TRIG:before {
+  content: "\e9d0";
+}
+.coins-TX-alt:before {
+  content: "\e9d1";
+}
+.coins-TX:before {
+  content: "\e9d2";
+}
+.coins-UBQ-alt:before {
+  content: "\e9d3";
+}
+.coins-UBQ:before {
+  content: "\e9d4";
+}
+.coins-UNITY-alt:before {
+  content: "\e9d5";
+}
+.coins-UNITY:before {
+  content: "\e9d6";
+}
+.coins-USDT-alt:before {
+  content: "\e9d7";
+}
+.coins-USDT:before {
+  content: "\e9d8";
+}
+.coins-VIOR-alt:before {
+  content: "\e9d9";
+}
+.coins-VIOR:before {
+  content: "\e9da";
+}
+.coins-VNL-alt:before {
+  content: "\e9db";
+}
+.coins-VNL:before {
+  content: "\e9dc";
+}
+.coins-VPN-alt:before {
+  content: "\e9dd";
+}
+.coins-VPN:before {
+  content: "\e9de";
+}
+.coins-VRC-alt:before {
+  content: "\e9df";
+}
+.coins-VRC:before {
+  content: "\e9e0";
+}
+.coins-VTC-alt:before {
+  content: "\e9e1";
+}
+.coins-VTC:before {
+  content: "\e9e2";
+}
+.coins-WAVES-alt:before {
+  content: "\e9e3";
+}
+.coins-WAVES:before {
+  content: "\e9e4";
+}
+.coins-XAI-alt:before {
+  content: "\e9e5";
+}
+.coins-XAI:before {
+  content: "\e9e6";
+}
+.coins-XBS-alt:before {
+  content: "\e9e7";
+}
+.coins-XBS:before {
+  content: "\e9e8";
+}
+.coins-XCP-alt:before {
+  content: "\e9e9";
+}
+.coins-XCP:before {
+  content: "\e9ea";
+}
+.coins-XEM-alt:before {
+  content: "\e9eb";
+}
+.coins-XEM:before {
+  content: "\e9ec";
+}
+.coins-XMR:before {
+  content: "\e9ed";
+}
+.coins-XPM-alt:before {
+  content: "\e9ee";
+}
+.coins-XPM:before {
+  content: "\e9ef";
+}
+.coins-XRP-alt:before {
+  content: "\e9f0";
+}
+.coins-XRP:before {
+  content: "\e9f1";
+}
+.coins-XVG-alt:before {
+  content: "\e9f2";
+}
+.coins-XVG:before {
+  content: "\e9f3";
+}
+.coins-YBC-alt:before {
+  content: "\e9f4";
+}
+.coins-YBC:before {
+  content: "\e9f5";
+}
+.coins-ZEC-alt:before {
+  content: "\e9f6";
+}
+.coins-ZEC:before {
+  content: "\e9f7";
+}
+.coins-ZEIT-alt:before {
+  content: "\e9f8";
+}
+.coins-ZEIT:before {
+  content: "\e9f9";
+}

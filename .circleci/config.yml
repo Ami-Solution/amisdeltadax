@@ -1,0 +1,47 @@
+ # Javascript Node CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-javascript/ for more details
+#
+version: 2
+
+jobs:
+  build:
+    docker:
+
+      - image: circleci/node:8.12
+
+    steps:
+      - checkout
+      
+      - run:
+          name: Update NPM
+          command: |
+            npm install npm@latest
+            sudo rm -rf /usr/local/lib/node_modules/npm
+            sudo mv node_modules/npm /usr/local/lib/node_modules/npm
+            sudo chown -R 500:500 /usr/local/lib/node_modules/npm
+       
+
+      - run:
+          name: "Checking Versions"
+          command: |
+            node --version
+            npm --version
+      - run:
+          name: Change permissions from root to user
+          command: sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
+
+      - run:
+          name: npm Install 
+          command: npm install 
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "package.json" }}
+          # fallback to using the latest cache if no exact match is found
+          - v1-dependencies-
+      - run:
+          name: env; echo $
+          command: env; echo $
+

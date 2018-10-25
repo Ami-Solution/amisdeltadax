@@ -1,0 +1,9 @@
+{
+  "name": "AmisDeltaDax",
+  "short_name": "AmisDeltaDax",
+  "display": "standalone",
+  "background_color": "white",
+  "description": "GDAX UI for EtherDelta",
+  "background_color": "white",
+  "theme_color": "white"
+}
