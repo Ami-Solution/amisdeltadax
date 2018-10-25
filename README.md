@@ -12,7 +12,7 @@
 
 
 
-[![CircleCI](https://circleci.com/gh/Ami-Solution/dexter.svg?style=svg)](https://circleci.com/gh/Ami-Solution/dexter/)
+[![CircleCI](https://circleci.com/gh/Ami-Solution/amisdeltadax.svg?style=svg)](https://circleci.com/gh/Ami-Solution/amisdeltadax/)
 
 What is Amis Delta dax ?
 
